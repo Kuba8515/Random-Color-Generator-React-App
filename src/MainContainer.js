@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-function ColorContainer(props) {
+function MainContainer(props) {
   const StyledDiv = styled.div`
     border: 1px black solid;
     border-radius: 10%;
@@ -18,4 +18,4 @@ function ColorContainer(props) {
     </StyledDiv>
   );
 }
-export default ColorContainer;
+export default MainContainer;

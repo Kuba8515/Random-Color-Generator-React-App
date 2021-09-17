@@ -2,8 +2,8 @@ import './App.css';
 import randomColor from 'randomcolor';
 import { useState } from 'react';
 import Button from './Button';
-import ColorContainer from './ColorContainer';
 import Heading from './Heading';
+import MainContainer from './MainContainer';
 
 function App() {
   // Define state variables
@@ -45,7 +45,7 @@ function App() {
             }}
           />
         </p>
-        <ColorContainer color={color} />
+        <MainContainer color={color} />
       </div>
     </div>
   );
